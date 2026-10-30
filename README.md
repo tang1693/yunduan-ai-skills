@@ -12,9 +12,9 @@
 
 ## 演示视频
 
-[![演示视频](docs/images/video-cover.png)](https://tang1693.github.io/yunduan-ai-skills/docs/media/demo.mp4)
+https://github.com/user-attachments/assets/e2d4d944-62bc-4ea3-8255-6684622fb4b9
 
-点图片播放。视频文件也在 [`docs/media/demo.mp4`](docs/media/demo.mp4)。
+
 
 ## 怎么用：新手三步走
 
