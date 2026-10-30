@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "safety-education",
+  "display_name": "安全教育",
+  "frontmatter_name": "safety-education",
+  "version": "2.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7203,
+      "sha256": "ca9aa4e7371d20913ee097e611a0f4772e7d0d6878bcabf46070f5b7a269bc4e"
+    }
+  ]
+}

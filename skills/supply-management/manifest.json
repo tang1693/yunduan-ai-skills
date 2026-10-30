@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "supply-management",
+  "display_name": "物品领用",
+  "frontmatter_name": "supply-management",
+  "version": "2.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7554,
+      "sha256": "a16740978a52fb9038bf537275a9c699ae95aa13dbab249019acf3340a09dbc6"
+    }
+  ]
+}

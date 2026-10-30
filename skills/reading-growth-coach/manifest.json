@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "reading-growth-coach",
+  "display_name": "教师阅读成长教练",
+  "frontmatter_name": "教师阅读成长教练（教育版）",
+  "version": "2.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 15313,
+      "sha256": "6c937b0c4b20c23783425c619b205c2c3bdbead20106ee5230621c63466195b5"
+    }
+  ]
+}

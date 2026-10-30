@@ -1,0 +1,10 @@
+{
+  "schema": "school-method-origins/1",
+  "origin_id": "method-teaching-unit-assessment-cycle",
+  "origin_version": "2.1.0",
+  "sha256": "6f05d8842ff91405727b42b951f558447f291b3684ffc3577841bf0c5715598e",
+  "adopted": "单元评价与教学调整一起完成",
+  "author": "AI老汤（汤幸初）；方法公地维护团队改编",
+  "license_scope": "school-internal",
+  "verification": "source_review_only; client_execution_pending"
+}

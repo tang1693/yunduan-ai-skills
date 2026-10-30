@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "四维三同协同模板手册",
+  "display_name": "四维三同协同模板手册",
+  "frontmatter_name": "四维三同协同模板手册",
+  "version": "2.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5468,
+      "sha256": "81f23c106032da4b05e90368b038fe65b6866950119f9136529a7a4266913287"
+    }
+  ]
+}

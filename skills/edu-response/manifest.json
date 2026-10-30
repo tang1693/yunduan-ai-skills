@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "edu-response",
+  "display_name": "审稿意见回复",
+  "frontmatter_name": "edu-response",
+  "version": "2.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5508,
+      "sha256": "c152acdef17c122d737690370aee59691a600e817c9be935e306ee7ae09f3647"
+    }
+  ]
+}

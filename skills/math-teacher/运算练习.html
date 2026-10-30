@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; connect-src 'none'; form-action 'none'; base-uri 'none'">
+<title>四则运算练习 · 先想理由，再核对</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4f6fa;color:#182c3f;font:18px/1.65 system-ui,sans-serif}main{max-width:760px;margin:auto;padding:24px}section{background:white;border:1px solid #d9e1eb;border-radius:12px;padding:22px;margin:20px 0}h1{font-size:27px}label{display:block}select,input,button{font:inherit;padding:10px;margin:8px 4px 8px 0;max-width:100%}button{cursor:pointer}#problem{font-size:36px;margin:18px 0}#answer{width:160px}#feedback{min-height:58px}.note{color:#4c6074;font-size:15px}:focus-visible{outline:3px solid #cc7517;outline-offset:4px}
+</style>
+<main><h1>四则运算练习</h1><p>不计时、不排名。先想怎样算，核对后再说理由。姓名、成绩和操作均不上传或保存。</p>
+<section><label for="topic">教师选择范围</label><select id="topic"><option value="add20">20以内加减</option><option value="add100">100以内加减</option><option value="multiply">乘法口诀（1—9）</option><option value="divide">整除（除数与商均为1—9）</option></select><button id="restart" type="button">从头开始</button>
+<p class="note">改变范围会开始新一轮；本次练习的临时计数随之清空。</p></section>
+<section><p id="problem" aria-live="polite"></p><form id="answerForm"><label for="answer">我的答案（整数）</label><input id="answer" type="text" inputmode="numeric" autocomplete="off"><button id="check" type="submit">核对一下</button></form>
+<p id="feedback" role="status" aria-live="polite"></p><button id="hint" type="button">看看思路</button><button id="next" type="button">下一题</button><p id="summary" class="note"></p>
+</section><p class="note">答错可以修改后再试；没想好也可以主动换题。提示和正误只针对当前题目，不能用来判断个人能力。</p></main>
+<script>
+'use strict';
+const $=id=>document.getElementById(id);let current,solved=false,seen=0,correct=0;
+const rand=(lo,hi)=>lo+Math.floor(Math.random()*(hi-lo+1));
+function makeProblem(topic){
+  let a,b,op,answer,explanation;
+  if(topic==='multiply'){a=rand(1,9);b=rand(1,9);op='×';answer=a*b;explanation=`${a}组，每组${b}个，一共${answer}个；可用${a}×${b}验证。`;}
+  else if(topic==='divide'){b=rand(1,9);answer=rand(1,9);a=b*answer;op='÷';explanation=`${answer}×${b}=${a}，所以${a}÷${b}=${answer}。`;}
+  else{const limit=topic==='add20'?20:100;
+    if(Math.random()<0.5){answer=rand(0,limit);a=rand(0,answer);b=answer-a;op='+';explanation=`${a}+${b}=${answer}；逆运算验证：${answer}−${b}=${a}。`;}
+    else{a=rand(0,limit);b=rand(0,a);op='−';answer=a-b;explanation=`${a}−${b}=${answer}；加法验证：${answer}+${b}=${a}。`;}
+  }
+  return {a,b,op,answer,explanation};
+}
+function next(){
+  current=makeProblem($('topic').value);solved=false;seen++;
+  $('problem').textContent=`${current.a} ${current.op} ${current.b} = ?`;
+  $('answer').value='';$('answer').disabled=false;$('check').disabled=false;
+  $('feedback').textContent='先试一试，也可以说说你打算怎样算。';summary();$('answer').focus();
+}
+function summary(){$('summary').textContent=`本轮已打开${seen}题，已答对${correct}题。仅为临时练习计数。`;}
+function check(event){
+  event.preventDefault();if(solved)return;
+  const raw=$('answer').value.trim();
+  if(!/^-?\d+$/.test(raw)||!Number.isSafeInteger(Number(raw))){$('feedback').textContent='请先填写一个整数，再核对。';return;}
+  if(Number(raw)===current.answer){solved=true;correct++;$('check').disabled=true;$('answer').disabled=true;$('feedback').textContent='本题算对了。'+current.explanation+' 你也可以换一种方法解释。';summary();}
+  else $('feedback').textContent='这次结果还不一致。可以重新计算，或点“看看思路”；当前题目会保留。';
+}
+function restart(){seen=0;correct=0;next();}
+$('answerForm').addEventListener('submit',check);$('hint').addEventListener('click',()=>{$('feedback').textContent=current.explanation+' 先解释，再试着核对自己的答案。';});
+$('next').addEventListener('click',next);$('restart').addEventListener('click',restart);$('topic').addEventListener('change',restart);restart();
+</script>
+</html>

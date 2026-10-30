@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "edu-research-project",
+  "display_name": "课题研究",
+  "frontmatter_name": "edu-research-project",
+  "version": "2.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7148,
+      "sha256": "3cf780b4e7406d8cf722ac70b0077fb634b83585a1ed0b002b074e4a36ca45b9"
+    }
+  ]
+}

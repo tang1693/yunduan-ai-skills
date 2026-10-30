@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "santong-chief-hub",
+  "display_name": "三同工作台",
+  "frontmatter_name": "santong-chief-hub",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 10526,
+      "sha256": "eb7681e9cc0097053ae2df7ea25dde1eaa5a4133a419397f0431ab6d9fdc4756"
+    }
+  ]
+}

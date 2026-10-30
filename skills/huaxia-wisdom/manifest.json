@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "huaxia-wisdom",
+  "display_name": "华夏智慧",
+  "frontmatter_name": "huaxia-wisdom",
+  "version": "2.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 15907,
+      "sha256": "6ad648a0bdeaa0175be48ce18aba87009135f1ece380c3ead408c692f151188e"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "四维协同授课策划器 · 云端学校版",
+  "display_name": "四维协同授课策划器",
+  "frontmatter_name": "四维协同授课策划器 · 云端学校版",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 13538,
+      "sha256": "72d48844e57595c880555f0672e1635247d26a4bd905425d887292c04ffb6b6e"
+    }
+  ]
+}

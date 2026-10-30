@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "contract-review",
+  "display_name": "合同初审",
+  "frontmatter_name": "contract-review",
+  "version": "3.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 25340,
+      "sha256": "3d98c962672ec5151961c214c23898993df53b36b558c7691af583b06ba52924"
+    }
+  ]
+}

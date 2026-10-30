@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "school-branding",
+  "display_name": "品牌建设",
+  "frontmatter_name": "school-branding",
+  "version": "1.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 6122,
+      "sha256": "2400f04620ce37e1aed0cbad01e9bce82cba6230d102bf0fbb621190196fe74c"
+    }
+  ]
+}

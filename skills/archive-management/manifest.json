@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "archive-management",
+  "display_name": "文书档案归档",
+  "frontmatter_name": "archive-management",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5174,
+      "sha256": "7b3ed7d77f3608a0920622e37e6079c8e1b3ef830da9e172ed7bac74614ba7b7"
+    }
+  ]
+}

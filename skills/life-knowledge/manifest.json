@@ -1,0 +1,47 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "life-knowledge",
+  "display_name": "生活助手·知识库",
+  "frontmatter_name": "生活助手·知识库",
+  "version": "2.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5235,
+      "sha256": "8e9ac6af973ffe0bde951f38468c8bc771017618a9ef8a6a407aac5e16b362fa"
+    },
+    {
+      "path": "diet.md",
+      "size": 295,
+      "sha256": "32e20e04f6e23a94ed10d3921ac26ead8f217d4d0f611b8d43afff1156fe5498"
+    },
+    {
+      "path": "glossary.md",
+      "size": 311,
+      "sha256": "fde64cd3614c8859b55bb3d57eaa6264a01890f394072b3cc964f9da6ed7eeda"
+    },
+    {
+      "path": "health.md",
+      "size": 435,
+      "sha256": "afeff57c2ca5afa54d414f5a065ca8d46e9a35881dc18092973bb4444a91ef7c"
+    },
+    {
+      "path": "index.md",
+      "size": 781,
+      "sha256": "50c1fcc7c725f8a1bf1b501760e9d2211c1cdc422d75542ac0e4604b25cb294d"
+    },
+    {
+      "path": "leisure.md",
+      "size": 349,
+      "sha256": "e0bab8a4814d8fa00b04d80fbe887641e84e3c4e46eff3babc2a734469691e25"
+    },
+    {
+      "path": "parenting.md",
+      "size": 353,
+      "sha256": "1c4afc4791d0ec34f1b95bdf08f629825e3f13d98891c0313d2a97d31e9a0fe1"
+    }
+  ]
+}

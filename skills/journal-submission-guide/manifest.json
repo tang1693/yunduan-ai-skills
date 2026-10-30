@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "journal-submission-guide",
+  "display_name": "投稿指南",
+  "frontmatter_name": "journal-submission-guide",
+  "version": "1.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5623,
+      "sha256": "4acc3a93320c88f5cdec36cb464ad5a424c509943bdc34267b5cc5f76b3a6a3b"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "campus-patrol",
+  "display_name": "校产巡查",
+  "frontmatter_name": "campus-patrol",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7377,
+      "sha256": "8475bcfa39d162a9c85f3a572b35b6fd3bb24f0205ac6a9f33fcb325d53e1f6a"
+    }
+  ]
+}

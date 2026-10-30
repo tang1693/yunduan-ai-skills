@@ -1,0 +1,32 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "四维三同 × 思维课堂教学设计师 · 云端学校版",
+  "display_name": "四维三同×思维课堂设计师",
+  "frontmatter_name": "四维三同 × 思维课堂教学设计师 · 云端学校版",
+  "version": "2.1.2",
+  "built_at": "2026-10-27",
+  "review_route": "text",
+  "verification": "structure_and_source_review_only; not educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7056,
+      "sha256": "735ef874c5862434cf3d7ec991147ff087896b9ec3e3a79f4254f71bcc1ad758"
+    },
+    {
+      "path": "references/完整任务补充.md",
+      "size": 3414,
+      "sha256": "5769a9dfe2a121b9453614551dd38d509fe909e97073ae18efb5beb8f3b243da"
+    },
+    {
+      "path": "来源记录/20261027_融合依据.json",
+      "size": 440,
+      "sha256": "686396b953b89a9e81bc432d3f1de78c6b03246e1e0288e6bb41836c9887a8da"
+    },
+    {
+      "path": "来源记录/原签名/manifest.json",
+      "size": 577,
+      "sha256": "48d6906c877665c4cc2d90a2220e1ab75263ae1cf3f5789b1919a4aae609f8b0"
+    }
+  ]
+}

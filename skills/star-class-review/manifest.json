@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "star-class-review",
+  "display_name": "星级班级评审",
+  "frontmatter_name": "star-class-review",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5410,
+      "sha256": "7dabd60147c3639b4a2ee1cabda19a882b27b5b65cfbfc49d3b51ae774cac6a2"
+    }
+  ]
+}

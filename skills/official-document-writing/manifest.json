@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "official-document-writing",
+  "display_name": "公文写作",
+  "frontmatter_name": "official-document-writing",
+  "version": "3.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 23750,
+      "sha256": "f6972b8e5869e8adf08ab1a67d4174af80f142c1052ef7fdf643559b01cef0e1"
+    }
+  ]
+}

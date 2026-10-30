@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "school-data-analysis",
+  "display_name": "学校数据分析",
+  "frontmatter_name": "school-data-analysis",
+  "version": "2.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7574,
+      "sha256": "7cfa2d80465a44ae49c856ec5bdccb57d17f6b356afdd1db80d66f26bfdee144"
+    }
+  ]
+}

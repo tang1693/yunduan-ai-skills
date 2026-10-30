@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "期中期末测试设计器（含低段游园过关活动）",
+  "display_name": "期中期末测试设计器",
+  "frontmatter_name": "期中期末测试设计器（含低段游园过关活动）",
+  "version": "2.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 6126,
+      "sha256": "e3f43ab052ad55c543355ceb7973e6c0b9fffc54fdf0ae017b1dc73048d44829"
+    }
+  ]
+}

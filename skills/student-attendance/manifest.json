@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "student-attendance",
+  "display_name": "学生考勤",
+  "frontmatter_name": "student-attendance",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5265,
+      "sha256": "e40e501b9567c78cad521a3bfa25a93cd906df798ceafd440b9eaae5590137c0"
+    }
+  ]
+}

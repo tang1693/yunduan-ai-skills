@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "official-vehicle-request",
+  "display_name": "公务用车",
+  "frontmatter_name": "official-vehicle-request",
+  "version": "1.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5851,
+      "sha256": "354b206665e9994164f75f1393b0e4cf3dea6d0dd69de12ac901a9a5a9c264ac"
+    }
+  ]
+}

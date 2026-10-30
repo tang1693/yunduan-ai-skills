@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "teaching-accident",
+  "display_name": "教学事故",
+  "frontmatter_name": "teaching-accident",
+  "version": "1.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 6110,
+      "sha256": "005fab2734bc8ed97a411f627eba94bf3280db29d55d4f7b477d78135df4e431"
+    }
+  ]
+}

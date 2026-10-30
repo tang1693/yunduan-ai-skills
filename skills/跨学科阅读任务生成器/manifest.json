@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "跨学科阅读任务生成器",
+  "display_name": "跨学科阅读任务生成器",
+  "frontmatter_name": "跨学科阅读任务生成器",
+  "version": "2.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5852,
+      "sha256": "17670c8c39db278efb539510dbc7f1548fa0c7c62cc3d7c0e1e1ebde5c895625"
+    }
+  ]
+}

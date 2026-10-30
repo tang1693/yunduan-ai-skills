@@ -1,0 +1,10 @@
+{
+  "schema": "school-method-origins/1",
+  "origin_id": "method-teaching-complete-lesson",
+  "origin_version": "2.1.0",
+  "sha256": "62264f0f8ec6008469728cc8017dc118945a4f4f22fed66f014be68fa0363c19",
+  "adopted": "课前—课堂—课后同一份方案",
+  "author": "AI老汤（汤幸初）；方法公地维护团队改编",
+  "license_scope": "school-internal",
+  "verification": "source_review_only; client_execution_pending"
+}

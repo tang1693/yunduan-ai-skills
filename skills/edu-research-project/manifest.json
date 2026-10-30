@@ -1,0 +1,32 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "edu-research-project",
+  "display_name": "课题研究",
+  "frontmatter_name": "edu-research-project",
+  "version": "2.1.2",
+  "built_at": "2026-10-27",
+  "review_route": "text",
+  "verification": "structure_and_source_review_only; not educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7684,
+      "sha256": "798c4f156c7bda62b5ada3b3385fe9e7ddf77ebf46199b2b66a13a3ea643ada0"
+    },
+    {
+      "path": "references/完整任务补充.md",
+      "size": 3345,
+      "sha256": "fcbe8bac220206968122643ea108d08057afb9e733a4f952f7a205131b900bb9"
+    },
+    {
+      "path": "来源记录/20261027_融合依据.json",
+      "size": 439,
+      "sha256": "265aa3c191117b0be21e797913e5f144ca693110372406e50e8620ae8995b424"
+    },
+    {
+      "path": "来源记录/原签名/manifest.json",
+      "size": 470,
+      "sha256": "84844aab8d1af3ceecbbc2fa4ba57453f26717d47cedf2a201f7e82c27c0f0e3"
+    }
+  ]
+}

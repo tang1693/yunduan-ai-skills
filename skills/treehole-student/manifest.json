@@ -1,0 +1,32 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "treehole-student",
+  "display_name": "学生关怀支持（教师用）",
+  "frontmatter_name": "treehole-student",
+  "version": "1.1.2",
+  "built_at": "2026-10-27",
+  "review_route": "text",
+  "verification": "structure_and_source_review_only; not educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 3959,
+      "sha256": "0f95a85f378505adee37f5f21fd8a3bfff5f1192dcec152c9657a08263089129"
+    },
+    {
+      "path": "references/完整任务补充.md",
+      "size": 3354,
+      "sha256": "bd8bf65cfd951c0c1490697c38dbbfeaebae25d4a8106357037bd5dbd96ae898"
+    },
+    {
+      "path": "来源记录/20261027_融合依据.json",
+      "size": 440,
+      "sha256": "1081b9b7358f8bd04013b6737f1d3242f1a47d314941c33da7f12e4fbf8de56e"
+    },
+    {
+      "path": "来源记录/原签名/manifest.json",
+      "size": 483,
+      "sha256": "b43f8fdf2ae9ae91ffc027f3777ff0b273691db1001e66da4fab2a65a1d1f66f"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "edu-exam-gen",
+  "display_name": "命题引擎",
+  "frontmatter_name": "edu-exam-gen",
+  "version": "2.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 6173,
+      "sha256": "03a023650fc82f95775dd29fcc58bf9da5a2c2de3b884e2cac36b20d302b967c"
+    }
+  ]
+}

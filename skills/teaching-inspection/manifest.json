@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "teaching-inspection",
+  "display_name": "教学检查",
+  "frontmatter_name": "teaching-inspection",
+  "version": "2.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7206,
+      "sha256": "13728bfb7dab46214b755b180dcaa3334557b2cea99da2dd1f8529206b9d6d48"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "teaching-award-application",
+  "display_name": "教学成果奖",
+  "frontmatter_name": "teaching-award-application",
+  "version": "1.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5148,
+      "sha256": "1253bde3f923215fb91656bcf2eaf378e782e080390a80ef93abe8f58751ac09"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "图书管理",
+  "display_name": "图书馆管理",
+  "frontmatter_name": "图书管理",
+  "version": "1.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 4483,
+      "sha256": "d2307d2dfaa04a59974a7f439605c6770c661ecf972a58bcdb7299effaef45d9"
+    }
+  ]
+}

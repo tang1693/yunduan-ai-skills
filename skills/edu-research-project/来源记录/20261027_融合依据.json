@@ -1,0 +1,10 @@
+{
+  "schema": "school-method-origins/1",
+  "origin_id": "method-research-project-cycle",
+  "origin_version": "2.1.0",
+  "sha256": "f39af521c011f22fe282c3185a1ddb039f6cab187de301116e8d77ccf9e4d3d0",
+  "adopted": "一个研究问题贯穿申报、实施与结项",
+  "author": "AI老汤（汤幸初）；方法公地维护团队改编",
+  "license_scope": "school-internal",
+  "verification": "source_review_only; client_execution_pending"
+}

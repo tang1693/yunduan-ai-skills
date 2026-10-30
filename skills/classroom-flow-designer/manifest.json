@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "classroom-flow-designer",
+  "display_name": "课堂心流设计器",
+  "frontmatter_name": "classroom-flow-designer",
+  "version": "3.1.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 42593,
+      "sha256": "df4f65300a9dc0d0ff043aca748c0e9f43a55aa724e4f85c396eab79e674cad5"
+    }
+  ]
+}

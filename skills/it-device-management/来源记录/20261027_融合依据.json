@@ -1,0 +1,10 @@
+{
+  "schema": "school-method-origins/1",
+  "origin_id": "method-it-issue-knowledge-cycle",
+  "origin_version": "2.1.0",
+  "sha256": "024242bf742d0582f69cb1cae0ec74ae7d8d1f00bcefe83654e3e7c359ec82d7",
+  "adopted": "故障处理后，把核实的经验留下",
+  "author": "AI老汤（汤幸初）；方法公地维护团队改编",
+  "license_scope": "school-internal",
+  "verification": "source_review_only; client_execution_pending"
+}

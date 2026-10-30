@@ -1,0 +1,68 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "math-teacher",
+  "display_name": "专业数学教学辅导助手",
+  "frontmatter_name": "math-teacher",
+  "version": "2.2.0",
+  "built_at": "2026-10-26",
+  "review_route": "technical_review",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 8136,
+      "sha256": "13bdc412c174cb1f41d1a0c927746c9660b569e0f9acd66d11f2aea1df21bc2e"
+    },
+    {
+      "path": "references/algebra.md",
+      "size": 1917,
+      "sha256": "2db71f04b20f8085a0d70587122c88c9933fa98abe4ec0613a034803f9b7ae32"
+    },
+    {
+      "path": "references/basic_math.md",
+      "size": 2253,
+      "sha256": "09d1385f2eb3ede85f733093bf9a0413e0050bfac8e060d14d4390bc327d58bd"
+    },
+    {
+      "path": "references/calculus.md",
+      "size": 1968,
+      "sha256": "8a8211cc75c851db9add61bc7cb8a1329ac93334638a36db090bbdf1c22d62a1"
+    },
+    {
+      "path": "references/gamification.md",
+      "size": 1701,
+      "sha256": "23a621b0a685dd6a61850678ca134427f114ef754f118cf80371a1e6601b63ff"
+    },
+    {
+      "path": "scripts/generate_game.sh",
+      "size": 816,
+      "sha256": "00b06c8ed6dda3a242c549ff598e81a28c5c8830df33246193e9f434b5261c0a"
+    },
+    {
+      "path": "scripts/generate_playground.sh",
+      "size": 810,
+      "sha256": "7308843b20cd540f521b6e858051a53fb8866ad63c7a3645c5243f451ea90e0b"
+    },
+    {
+      "path": "scripts/publish-playground.md",
+      "size": 775,
+      "sha256": "dc6ef6452569591df75625ea8229abb8e1f5871436b8de0ee6b27fa98aaba83b"
+    },
+    {
+      "path": "数学探索.html",
+      "size": 7958,
+      "sha256": "24c581233fda79c62b486885e67e249ac54025abac92cd8e6cccf779d210580b"
+    },
+    {
+      "path": "运算练习.html",
+      "size": 4588,
+      "sha256": "86c0f531827e4add19143cf5e97b31b3b6f0004a6521b6cb50affefd5d3c7a3c"
+    }
+  ],
+  "technical_audit": {
+    "status": "passed_for_exact_sources",
+    "version": "2.2.0",
+    "evidence_sha256": "119d9a9ce4b0aa309d0fad6d8a6f633f86d6166eecec001f4bbdcc18f1cac6ae",
+    "scope": "Local code/resource checks; no Windows client or classroom validation"
+  }
+}

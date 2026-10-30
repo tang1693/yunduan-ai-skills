@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "santong-lesson-review",
+  "display_name": "三同说课审核",
+  "frontmatter_name": "santong-lesson-review",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 9137,
+      "sha256": "8f5d82cf77f7f961333fede7798406fee0963f13305583e3e74cd4f0283c6d51"
+    }
+  ]
+}

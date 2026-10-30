@@ -1,0 +1,32 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "humanizer-zh",
+  "display_name": "降AI味",
+  "frontmatter_name": "humanizer-zh",
+  "version": "1.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": ".gitignore",
+      "size": 47,
+      "sha256": "f2566cea6bac0939568772c3665e70a04b7480ceeaabe152b6cde05aa5b3b8e4"
+    },
+    {
+      "path": "LICENSE",
+      "size": 1084,
+      "sha256": "4a02596d4fbad0e71215c7ce107fb13056ee2ad1f02a8ca778399c356fa04843"
+    },
+    {
+      "path": "README.md",
+      "size": 8038,
+      "sha256": "04b0ec5feaa3cdd94668871bbfc029c7557c024dfe6b22272fe2f6835e476718"
+    },
+    {
+      "path": "SKILL.md",
+      "size": 2754,
+      "sha256": "01e1984a1852a8b3625628887d461de9108d0751f7b8289af4e2cf4c35a76f34"
+    }
+  ]
+}

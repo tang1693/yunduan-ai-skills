@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "教材库备课助手 · 云端学校版",
+  "display_name": "教材库备课",
+  "frontmatter_name": "教材库备课助手 · 云端学校版",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 4535,
+      "sha256": "6c02f04d8425d20589e00c972a6e41269c9b9bddc842dc758991b7c110d35b0a"
+    }
+  ]
+}

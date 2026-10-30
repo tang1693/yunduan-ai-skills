@@ -1,0 +1,10 @@
+{
+  "schema": "school-method-origins/1",
+  "origin_id": "method-finance-reimbursement-cycle",
+  "origin_version": "2.1.0",
+  "sha256": "36d916a8d2da76894db73bae02689d1644a499ba76dbeaae909f1da9eea27260",
+  "adopted": "把报销材料核对与补件放在一起",
+  "author": "AI老汤（汤幸初）；方法公地维护团队改编",
+  "license_scope": "school-internal",
+  "verification": "source_review_only; client_execution_pending"
+}

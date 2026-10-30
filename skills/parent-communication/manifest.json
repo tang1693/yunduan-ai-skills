@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "parent-communication",
+  "display_name": "家校沟通助手",
+  "frontmatter_name": "parent-communication",
+  "version": "4.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 8782,
+      "sha256": "9a59c01e221e3cb659ac07fa31635666a22560fc42e0094abd297c0637f35e53"
+    }
+  ]
+}

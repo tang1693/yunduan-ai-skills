@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "partner-school-coordination",
+  "display_name": "入驻校协调",
+  "frontmatter_name": "partner-school-coordination",
+  "version": "2.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7121,
+      "sha256": "528f46b588134e4d0a241f79da460ce6af8ffdbf0b929b498b24183766ef2023"
+    }
+  ]
+}

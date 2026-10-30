@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "考试与成绩分析助手（含边缘生学困生提分分析）",
+  "display_name": "考后讲评与教学改进",
+  "frontmatter_name": "考试与成绩分析助手（含边缘生/学困生提分分析）",
+  "version": "2.2.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 4452,
+      "sha256": "a37c1899c54a41e1110fa4719f511ab1e0412f457aae7fe424dfc2f0a26b83b4"
+    }
+  ]
+}

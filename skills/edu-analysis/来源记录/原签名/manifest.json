@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "edu-analysis",
+  "display_name": "考试数据核对与试题分析",
+  "frontmatter_name": "edu-analysis",
+  "version": "2.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5400,
+      "sha256": "2b96286b8a815a6ebb16e8b5a4dd440179286015de88a739ff395b91c5d5f471"
+    }
+  ]
+}

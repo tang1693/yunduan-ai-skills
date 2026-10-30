@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "seal-certificate-management",
+  "display_name": "用章证照",
+  "frontmatter_name": "seal-certificate-management",
+  "version": "2.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 8075,
+      "sha256": "3547f37e94ba879760c284afb1821b5e04c643b26d1c33539e672221bb0d53be"
+    }
+  ]
+}

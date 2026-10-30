@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "teacher-21-actions",
+  "display_name": "21个动作",
+  "frontmatter_name": "teacher-21-actions",
+  "version": "1.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 12458,
+      "sha256": "410bcc142e638adaee77e2a4f796beede5b19c44d710b436f0648286e3fce81a"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "classroom-observation",
+  "display_name": "听评课",
+  "frontmatter_name": "classroom-observation",
+  "version": "2.0.2",
+  "built_at": "2026-10-27",
+  "review_route": "text",
+  "verification": "structure_and_source_review_only; not educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 8241,
+      "sha256": "5eae5de44c42348e4ddabdd90e5b1ed08142c1aa09a8550d335b44ca252afbc0"
+    },
+    {
+      "path": "references/完整任务补充.md",
+      "size": 3135,
+      "sha256": "224df63eabe4d235dc8524740276e62d7e2226da8dc2f476202b2ae6a7923a73"
+    },
+    {
+      "path": "来源记录/20261027_融合依据.json",
+      "size": 450,
+      "sha256": "0b9b8c11b156c7bad098dc8317605e079f689f454fc9621874b96bfc76e9216f"
+    },
+    {
+      "path": "来源记录/原签名/manifest.json",
+      "size": 469,
+      "sha256": "464131b9d65963e7e2c8dda0f197777defed1b53a5b231f1c050b97f9f9f43bc"
+    }
+  ]
+}

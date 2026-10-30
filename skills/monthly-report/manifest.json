@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "monthly-report",
+  "display_name": "月度汇报专家",
+  "frontmatter_name": "monthly-report",
+  "version": "3.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 35433,
+      "sha256": "71ac7487691ee3e9d498424d7d7f30dc6de3b54d21b6d288da45d49048255f61"
+    }
+  ]
+}

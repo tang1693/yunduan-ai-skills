@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "科研专家工作室 · 云端学校版",
+  "display_name": "科研专家工作室",
+  "frontmatter_name": "科研专家工作室 · 云端学校版",
+  "version": "1.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5525,
+      "sha256": "19435c1d596c8129f27bbe4eefde3c527369f6fe19c8b9d20388161ec9dcf31b"
+    }
+  ]
+}

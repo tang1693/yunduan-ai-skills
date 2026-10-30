@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "weekend-where",
+  "display_name": "周末去哪儿",
+  "frontmatter_name": "周末去哪儿",
+  "version": "2.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 6521,
+      "sha256": "23ee383874443e120d7c5f19494be58c7282f3d474df320daa2779fa592e11f3"
+    }
+  ]
+}

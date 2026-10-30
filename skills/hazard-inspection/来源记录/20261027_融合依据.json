@@ -1,0 +1,10 @@
+{
+  "schema": "school-method-origins/1",
+  "origin_id": "method-safety-hazard-cycle",
+  "origin_version": "2.1.0",
+  "sha256": "f9da36277c0f24f5ccde654c1f9c1436b9acc7830bd060623a3968cc1443697f",
+  "adopted": "隐患记录到人工复核，事实分阶段保留",
+  "author": "AI老汤（汤幸初）；方法公地维护团队改编",
+  "license_scope": "school-internal",
+  "verification": "source_review_only; client_execution_pending"
+}

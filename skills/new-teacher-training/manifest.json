@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "new-teacher-training",
+  "display_name": "新教师培训",
+  "frontmatter_name": "new-teacher-training",
+  "version": "2.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7525,
+      "sha256": "46e0a7b3a87bf875557af9825b4f190acfedbccc3826b65431246b7a7b3c6b8a"
+    }
+  ]
+}

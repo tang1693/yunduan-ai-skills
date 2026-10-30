@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "retell-check",
+  "display_name": "复述检验",
+  "frontmatter_name": "retell-check",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7100,
+      "sha256": "440c16dc61e74f17284abaab62e97817acbc1beef285c98bbdc6a66d22c3881d"
+    }
+  ]
+}

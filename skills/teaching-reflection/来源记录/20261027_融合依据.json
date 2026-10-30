@@ -1,0 +1,10 @@
+{
+  "schema": "school-method-origins/1",
+  "origin_id": "method-teacher-development-reflection-cycle",
+  "origin_version": "2.1.0",
+  "sha256": "c8703a3308da55db3053bf42fd16bb2ff0ca6227127dc7f003fa228cd569fe34",
+  "adopted": "把自责变成一次小改进",
+  "author": "AI老汤（汤幸初）；方法公地维护团队改编",
+  "license_scope": "school-internal",
+  "verification": "source_review_only; client_execution_pending"
+}

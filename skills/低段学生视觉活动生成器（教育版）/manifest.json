@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "低段学生视觉活动生成器（教育版）",
+  "display_name": "低段视觉活动",
+  "frontmatter_name": "低段学生视觉活动生成器（教育版）",
+  "version": "2.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 6182,
+      "sha256": "f45d460eb5e2cc9b53482f2939845068aec3901aaeffe0c01427449107851ddb"
+    }
+  ]
+}

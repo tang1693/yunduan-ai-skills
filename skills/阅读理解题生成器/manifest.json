@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "阅读理解题生成器",
+  "display_name": "阅读理解题生成器",
+  "frontmatter_name": "阅读理解题生成器",
+  "version": "2.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 6102,
+      "sha256": "f185249a1dc866825ea2888ef0aea7b13094a58e775d3489d97873cc5b7042ce"
+    }
+  ]
+}

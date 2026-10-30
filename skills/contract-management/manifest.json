@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "contract-management",
+  "display_name": "教师合同",
+  "frontmatter_name": "contract-management",
+  "version": "1.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7322,
+      "sha256": "d7884452ed86dc6cd12851f624a365f9d81346f892542ec7eb742aaa71805874"
+    }
+  ]
+}

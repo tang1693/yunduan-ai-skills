@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "学期班主任评语生成器",
+  "display_name": "学期班主任评语生成器",
+  "frontmatter_name": "学期班主任评语生成器",
+  "version": "2.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 6020,
+      "sha256": "d56022812d70be68fbbd6fcb51bd01aac1c787b9d20a9b4930bf72ff3a240469"
+    }
+  ]
+}

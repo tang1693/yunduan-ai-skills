@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "五育融合学生评价助手（教育版）",
+  "display_name": "五育融合评价",
+  "frontmatter_name": "五育融合学生评价助手（教育版）",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 4096,
+      "sha256": "def113480439e840325863e95ccd65d6f94c11eb3f57f29cdcd54a17dc711242"
+    }
+  ]
+}

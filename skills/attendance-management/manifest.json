@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "attendance-management",
+  "display_name": "教职工考勤管理",
+  "frontmatter_name": "attendance-management",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5187,
+      "sha256": "e0343c630f2d8e24c9a5622efab43e8f9018e94a542c3c3ffeb747432bb81e78"
+    }
+  ]
+}

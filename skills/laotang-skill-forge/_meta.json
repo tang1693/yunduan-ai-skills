@@ -1,0 +1,10 @@
+{
+  "origin": "local-import",
+  "skillCode": "laotang-skill-forge",
+  "displayName": "AI老汤·Skill工坊",
+  "importedAt": 1791536944041,
+  "version": "4.1.0",
+  "execution": "standalone_dialogue",
+  "requiredDependencies": [],
+  "sourceVersion": "4.0.0-S"
+}

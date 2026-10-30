@@ -1,0 +1,32 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "meeting-minutes",
+  "display_name": "会议纪要",
+  "frontmatter_name": "meeting-minutes",
+  "version": "3.0.2",
+  "built_at": "2026-10-27",
+  "review_route": "text",
+  "verification": "structure_and_source_review_only; not educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 15084,
+      "sha256": "08df7213edd4f2288c22e7f1f060026bc1e719236954052c7d0b28ba50acd220"
+    },
+    {
+      "path": "references/完整任务补充.md",
+      "size": 3280,
+      "sha256": "f5aa4b14252ba110391ecc720a938a2a36b8a89e93e941cebcc915fe9d035894"
+    },
+    {
+      "path": "来源记录/20261027_融合依据.json",
+      "size": 441,
+      "sha256": "5ea8981b9e12537e4f14cd306957c572ae4d1254d40ffc925c89df2afe9b8735"
+    },
+    {
+      "path": "来源记录/原签名/manifest.json",
+      "size": 461,
+      "sha256": "a644ac9fb1e7372b1a4d5a6315baf74f7252eaf8d3b2f61db9fdec9fd6e4671b"
+    }
+  ]
+}

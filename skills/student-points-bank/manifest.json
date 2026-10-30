@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "student-points-bank",
+  "display_name": "学生积分银行",
+  "frontmatter_name": "student-points-bank",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5429,
+      "sha256": "cbc8ea1235ec82e3d3a2fe1ffe5fc67e6f8a85ab92364c25ce003d72adc9ba0f"
+    }
+  ]
+}

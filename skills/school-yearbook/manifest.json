@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "school-yearbook",
+  "display_name": "学校年鉴",
+  "frontmatter_name": "school-yearbook",
+  "version": "1.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7143,
+      "sha256": "0f1e1e22acb3875b8f43a92396451b4be0a2223005178a4da539e9f056d3c1f7"
+    }
+  ]
+}

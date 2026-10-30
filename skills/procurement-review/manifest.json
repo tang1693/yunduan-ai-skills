@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "procurement-review",
+  "display_name": "采购标书审核",
+  "frontmatter_name": "procurement-review",
+  "version": "3.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 26533,
+      "sha256": "09db0b532d04fe66c0dffaa1c899decfe6127a0641ab65737c964d2eb66ff435"
+    }
+  ]
+}

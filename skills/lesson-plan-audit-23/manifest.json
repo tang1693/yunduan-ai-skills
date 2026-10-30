@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "lesson-plan-audit-23",
+  "display_name": "教案对照23条",
+  "frontmatter_name": "lesson-plan-audit-23",
+  "version": "1.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5791,
+      "sha256": "8b289070efca13804540bdf673d5ab7aad940c6eee1416af9bc3c36c42483fa1"
+    }
+  ]
+}

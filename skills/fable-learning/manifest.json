@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "fable-learning",
+  "display_name": "概念寓言学习引擎",
+  "frontmatter_name": "fable-learning",
+  "version": "3.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 3549,
+      "sha256": "ac3cc3a8a4c1059becb4e8ff5a860e8209ff5c0bd1081531dfb93a7048f0fac1"
+    }
+  ]
+}

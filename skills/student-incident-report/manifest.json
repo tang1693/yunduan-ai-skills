@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "student-incident-report",
+  "display_name": "突发事件",
+  "frontmatter_name": "student-incident-report",
+  "version": "1.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 6991,
+      "sha256": "6f75dfb4b8ee5eb7215b27cecdb7edab5020353f6eb42b8fcfee612a3a58d344"
+    }
+  ]
+}

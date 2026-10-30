@@ -1,0 +1,47 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "teaching-reflection",
+  "display_name": "教学反思专家",
+  "frontmatter_name": "teaching-reflection",
+  "version": "3.1.2",
+  "built_at": "2026-10-27",
+  "review_route": "text",
+  "verification": "structure_and_source_review_only; not educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 4444,
+      "sha256": "dcdeb79b56bfedb4048019fcebbe24f02db9ba6bfc33f10fb635f957a881833d"
+    },
+    {
+      "path": "references/5-why-guide.md",
+      "size": 557,
+      "sha256": "ccfe01ad746609534b5ab3fb96d78d3b9a6cb2eecb27c595050e362f6971a53c"
+    },
+    {
+      "path": "references/reflection-template.md",
+      "size": 376,
+      "sha256": "398a833420d8df0d3f3ba0a01a5fc32390268a51389f21f8997c2be760b2ad23"
+    },
+    {
+      "path": "references/unit-summary-template.md",
+      "size": 405,
+      "sha256": "45a80cb39f9ffa74d148560f87808e1f6697af6394d586ee03f7c46d5c52730e"
+    },
+    {
+      "path": "references/完整任务补充.md",
+      "size": 3067,
+      "sha256": "ea335908132500fe54597aabc1964067e1ddca8146db9e3fbea95600baac6e79"
+    },
+    {
+      "path": "来源记录/20261027_融合依据.json",
+      "size": 435,
+      "sha256": "3e7d283033b57e94e12e50b3181f521ec6d71d7202884ae2632fedcf60eb4459"
+    },
+    {
+      "path": "来源记录/原签名/manifest.json",
+      "size": 966,
+      "sha256": "11ba1c7be416d2683baa05537b1c205d8717c387dda36e2257c7cad3dd63adf7"
+    }
+  ]
+}

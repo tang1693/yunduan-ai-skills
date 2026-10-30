@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "teacher-training-record",
+  "display_name": "教师培训",
+  "frontmatter_name": "teacher-training-record",
+  "version": "2.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7093,
+      "sha256": "3480afd525157af58588882061642dc4bf915d53c35e0cd1ee4fee36a6e8f28a"
+    }
+  ]
+}

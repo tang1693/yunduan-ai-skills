@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "classroom-observation",
+  "display_name": "听评课",
+  "frontmatter_name": "classroom-observation",
+  "version": "2.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7705,
+      "sha256": "581fa5a59e2bad50296512058917117d81cf1920a274269ed4cb73edf5c3ba2a"
+    }
+  ]
+}

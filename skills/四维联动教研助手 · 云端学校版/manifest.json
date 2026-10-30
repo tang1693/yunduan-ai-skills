@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "四维联动教研助手 · 云端学校版",
+  "display_name": "四维联动教研助手",
+  "frontmatter_name": "四维联动教研助手 · 云端学校版",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 12251,
+      "sha256": "63cfad4b21e5e30dd32cb3fd882621cb07cf3cc8be499b9c9b54ddb6ad6f38d6"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "treehole-teacher",
+  "display_name": "treehole-teacher",
+  "frontmatter_name": "treehole-teacher",
+  "version": "3.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 6615,
+      "sha256": "a777ffa8bc8dfa46bfc3cf0bc5c30dccb6c71f1d60add577c1bfe7c775e3bfff"
+    }
+  ]
+}

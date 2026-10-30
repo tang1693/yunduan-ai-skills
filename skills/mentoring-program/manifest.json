@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "mentoring-program",
+  "display_name": "青蓝工程",
+  "frontmatter_name": "mentoring-program",
+  "version": "2.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7475,
+      "sha256": "293cef2ae9cea7020a03c8b9ddc894e24525f79a434ddad7f3579a4bd00ac76b"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "康奈尔笔记法结构清晰才好记",
+  "display_name": "康奈尔笔记法",
+  "frontmatter_name": "康奈尔笔记法",
+  "version": "2.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5642,
+      "sha256": "823a6c4fc964591aae632526cdde214c4ec57d1eab5b1e5ecac5ff69c82e3aff"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "edu-scoring",
+  "display_name": "作答核对与阅卷辅助",
+  "frontmatter_name": "edu-scoring",
+  "version": "2.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 4205,
+      "sha256": "2c96e5df40e582bbf05102dbf0d269d7b9950443717651941143e86016905cd3"
+    }
+  ]
+}

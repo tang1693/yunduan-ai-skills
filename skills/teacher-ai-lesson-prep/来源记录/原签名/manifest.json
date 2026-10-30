@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "teacher-ai-lesson-prep",
+  "display_name": "全学科备课助手（1—9年级）",
+  "frontmatter_name": "teacher-ai-lesson-prep",
+  "version": "1.2.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 6439,
+      "sha256": "b0da6ec71da258b15f66c20617e629756858d13243a412e104f5e43c68c90fcb"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "teaching-postmortem",
+  "display_name": "教学复盘",
+  "frontmatter_name": "teaching-postmortem",
+  "version": "2.1.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 28591,
+      "sha256": "00d5de23ab568bb59b83936f50097aa651107b59f00bc250ec5993ddd5758b0a"
+    }
+  ]
+}

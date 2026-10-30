@@ -1,0 +1,37 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "laotang-skill-forge",
+  "display_name": "Skill 工坊",
+  "frontmatter_name": "laotang-skill-forge",
+  "version": "4.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 1026,
+      "sha256": "58e50b93d7487c80579dce2bbcada3b6f095e0a7017102028add42557fd605c1"
+    },
+    {
+      "path": "SKILL.md",
+      "size": 8062,
+      "sha256": "d1356607ce8decdcd0fd0a574f48bd5e37b4e33b61be56686881fcd040e0ecc9"
+    },
+    {
+      "path": "_meta.json",
+      "size": 262,
+      "sha256": "a0558add7137a2de0f2ec66147e36ecc1a288fcd300df4d603722e6fa2fc0242"
+    },
+    {
+      "path": "references/dialogue-examples.md",
+      "size": 1509,
+      "sha256": "0188076af5172301970a99e78e066676dd6a1073793d1544a7f494a664b1c48b"
+    },
+    {
+      "path": "templates/SKILL-template.md",
+      "size": 1061,
+      "sha256": "6dac6f1e63a323540889fe8fc4b096ede64586785520f97c038ab9ce419c77ed"
+    }
+  ]
+}

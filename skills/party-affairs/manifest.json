@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "party-affairs",
+  "display_name": "党务工作辅助",
+  "frontmatter_name": "party-affairs",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5621,
+      "sha256": "7b6457c0744fe14f0dc274554b0d829f54af395fcaeea303f6ef4721c295623f"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "morning-exercise-flag-raising",
+  "display_name": "升旗仪式与课间操组织",
+  "frontmatter_name": "morning-exercise-flag-raising",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5541,
+      "sha256": "4fecfe1b65b936ffec1b2896ea845eef19bb4d8b4595eb98a1ff077f5d2cf338"
+    }
+  ]
+}

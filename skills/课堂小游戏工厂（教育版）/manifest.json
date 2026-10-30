@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "课堂小游戏工厂（教育版）",
+  "display_name": "课堂小游戏",
+  "frontmatter_name": "课堂小游戏工厂（教育版）",
+  "version": "1.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 14154,
+      "sha256": "64c8a0f0e8387e43e1b29cdd6ef3fdaa687935d8712a5fc218d38dc737cf62ff"
+    }
+  ]
+}

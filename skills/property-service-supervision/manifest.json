@@ -1,0 +1,32 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "property-service-supervision",
+  "display_name": "物业服务",
+  "frontmatter_name": "property-service-supervision",
+  "version": "2.0.2",
+  "built_at": "2026-10-27",
+  "review_route": "text",
+  "verification": "structure_and_source_review_only; not educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7879,
+      "sha256": "2f702fd5584002d920f0896a09556763d92cbe531ca5d5f5faffdfb67d158bc6"
+    },
+    {
+      "path": "references/完整任务补充.md",
+      "size": 2984,
+      "sha256": "897d4283afb017100fe2d67d59f09e9115c0180226a011706768359b12d8867d"
+    },
+    {
+      "path": "来源记录/20261027_融合依据.json",
+      "size": 442,
+      "sha256": "c65b3cc3e62ed5255811419204f5416fd15c39e9a0e4646a4becb490ee8157a1"
+    },
+    {
+      "path": "来源记录/原签名/manifest.json",
+      "size": 486,
+      "sha256": "994c34b8b17ba232e5294e2611aba1e25c504ee05a3f27f02801998c00fc4670"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "edu-polishing",
+  "display_name": "论文学术润色",
+  "frontmatter_name": "edu-polishing",
+  "version": "2.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 16301,
+      "sha256": "78f27040f422e8bc859133d1de157f648debce2ebb871189d9e49c6cb898047d"
+    }
+  ]
+}

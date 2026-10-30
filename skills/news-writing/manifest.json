@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "news-writing",
+  "display_name": "新闻稿",
+  "frontmatter_name": "news-writing",
+  "version": "2.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 11609,
+      "sha256": "ba7fef7b6dde52a25481ce6aba267a9a6c990525a1c05a4e366c2142521edbdc"
+    }
+  ]
+}

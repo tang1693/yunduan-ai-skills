@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "young-pioneers",
+  "display_name": "少先队大队委工作辅助",
+  "frontmatter_name": "young-pioneers",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5675,
+      "sha256": "1c0aa5f261ba303b3604033a535bbd1b23d4ca600a6b8f64ae8f488891be35a8"
+    }
+  ]
+}

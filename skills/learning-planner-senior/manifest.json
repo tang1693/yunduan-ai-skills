@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "learning-planner-senior",
+  "display_name": "高中学习规划",
+  "frontmatter_name": "learning-planner-senior",
+  "version": "1.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 3364,
+      "sha256": "aaa9a6ea03b8a50d283e4de3bf1b26ae48bdb2d1b3d7e5db4c3d84d512b827d2"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "finance-review",
+  "display_name": "财务报销材料预核对",
+  "frontmatter_name": "finance-review",
+  "version": "3.1.2",
+  "built_at": "2026-10-27",
+  "review_route": "text",
+  "verification": "structure_and_source_review_only; not educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5800,
+      "sha256": "fce663d2f63e8a3f6c3e1d91e4bd39a42b5f9708680898b34a1ee428872fcf32"
+    },
+    {
+      "path": "references/完整任务补充.md",
+      "size": 3040,
+      "sha256": "e590419975190d3d473b38bebafc35ad63b8de2be25e138f0d28ca39ef953531"
+    },
+    {
+      "path": "来源记录/20261027_融合依据.json",
+      "size": 438,
+      "sha256": "d0c95622ed53daa66d5659769e684891c827736b60dd504c492e934d50123555"
+    },
+    {
+      "path": "来源记录/原签名/manifest.json",
+      "size": 473,
+      "sha256": "e9ed9f703582781652d09c187e2b6fddb7ca573207a7b70d53b45763c97be43b"
+    }
+  ]
+}

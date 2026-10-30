@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "academic-conference",
+  "display_name": "学术会议",
+  "frontmatter_name": "academic-conference",
+  "version": "1.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5747,
+      "sha256": "f1cd6221b09a00d921ec060997e9c58f8d44a450dc92ca7cb764ea74d111415f"
+    }
+  ]
+}

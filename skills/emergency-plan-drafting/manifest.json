@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "emergency-plan-drafting",
+  "display_name": "应急预案",
+  "frontmatter_name": "emergency-plan-drafting",
+  "version": "1.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 8254,
+      "sha256": "35523a3bf2ddd73e529b40c6161c524a44fdd6d86232398d46aa1e6d028930a4"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schema": "school-skill-package/1",
+  "name": "fuyao-conundrum",
+  "version": "3.1.7",
+  "author": "🏷️ 自创 · AI老汤（汤幸初）· 扶摇阁拔尖创新人才培养体系",
+  "validation": "static_review_and_script_smoke_test_only",
+  "license": "沿用作者授权范围；本轮不扩大第三方使用或再分发许可",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "6e4a8e4be32f4cb06aa7331113ba0e17edf88723a57ec06cf9cbd08e82e0b6a1"
+    },
+    {
+      "path": "assets/生成AI教育卡_模板脚本.py",
+      "sha256": "f16bf315dffbfb9d37fed950f094de8c1605ab4c7fa6d6ce04e4034268fae598"
+    },
+    {
+      "path": "assets/生成AstraNova卡_模板脚本.py",
+      "sha256": "edcc4ee2a13c84c4d373efea27d849ed01d80a6970ff1cad05a6c950e9fd9425"
+    },
+    {
+      "path": "assets/生成小云版卡_脚本.py",
+      "sha256": "56d54c92e8a994f4ffe5246c8f4f564a37413e04be6c61fe3ba0991d8298f3fb"
+    },
+    {
+      "path": "assets/生成扶摇卡_模板脚本.py",
+      "sha256": "ac07455ab0a85e09c38d259ce9daa8b5b4b05e247d6266f7aceebf8cdbd55f27"
+    },
+    {
+      "path": "assets/生成扶摇思维地图_脚本.py",
+      "sha256": "a8ffb11ce4c65bab27feb6867ee6dfc7e31e28bdbf2ff21460b5a50f4fa1a42c"
+    },
+    {
+      "path": "references/中文使用卡.md",
+      "sha256": "4d1efec0b8963c66b367344b3a6d7997df74298c03c23f58fe427b31adf3198b"
+    },
+    {
+      "path": "references/脚本与依赖说明.md",
+      "sha256": "81f614611c240e877e0a1ac68818cacb24ef1d4384bb37c55de50a739e4239cf"
+    }
+  ]
+}

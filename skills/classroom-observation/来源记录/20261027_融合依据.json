@@ -1,0 +1,10 @@
+{
+  "schema": "school-method-origins/1",
+  "origin_id": "method-teaching-lesson-observation-cycle",
+  "origin_version": "2.1.0",
+  "sha256": "e9520b7217c2b05b9f0b4029ce262fdde23419dabce1905c966e6bccf59bf0bb",
+  "adopted": "听课以后，留下下一课能试的一件事",
+  "author": "AI老汤（汤幸初）；方法公地维护团队改编",
+  "license_scope": "school-internal",
+  "verification": "source_review_only; client_execution_pending"
+}

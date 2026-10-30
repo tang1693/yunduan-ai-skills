@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src 'none'; form-action 'none'; base-uri 'none'">
+<title>数学探索 · 分数与函数</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4f6fa;color:#182c3f;font:17px/1.65 system-ui,sans-serif}main{max-width:880px;margin:auto;padding:24px}h1{font-size:28px}h2{font-size:21px}section,.card{background:white;border:1px solid #d9e1eb;border-radius:12px;padding:20px;margin:16px 0}label{display:block;margin:12px 0}select,button,textarea{font:inherit;padding:8px;max-width:100%}input[type=range]{width:min(100%,300px);vertical-align:middle}textarea{width:100%;min-height:80px}svg{width:100%;height:auto;display:block;background:#f8fafc}button{cursor:pointer}output{font-weight:650}p{overflow-wrap:anywhere}.note{color:#4c6074;font-size:15px}:focus-visible{outline:3px solid #cc7517;outline-offset:4px}[hidden]{display:none!important}
+</style>
+<main>
+<h1>数学探索</h1><p>先猜一猜，再改参数，最后用自己的话解释。页面离线运行，不记录姓名或上传操作。</p>
+<label for="topic">这次探索什么？</label><select id="topic"><option value="fraction">分数与等值分数</option><option value="quadratic">二次函数（也可观察a=0）</option><option value="derivative">教师延伸：x²的割线与切线</option></select>
+<section id="fraction"><h2>同一个整体，怎样分才一样多？</h2><p>先预测：只把分子、分母一起乘相同的非零数，涂色总长度会改变吗？</p>
+<label>分母 <input id="denominator" type="range" min="1" max="12" value="3"> <output id="dValue"></output></label>
+<label>分子 <input id="numerator" type="range" min="0" max="3" value="1"> <output id="nValue"></output></label>
+<label>同时扩大几倍 <input id="multiple" type="range" min="1" max="6" value="2"> <output id="mValue"></output></label>
+<svg id="fractionDiagram" viewBox="0 0 720 150" role="img" aria-label="同样长的两条分数条；文字给出分子分母与等值关系"></svg>
+<p id="fractionResult" aria-live="polite"></p><p class="note">这里只画0到1之间的分数。两条纸条代表同一个整体。它不能直接比较两个不同大小的饼。</p></section>
+<section id="quadratic" hidden><h2>改变系数，图像和实根怎样变化？</h2><p>先预测：把a改成0，还能用二次函数的顶点公式吗？</p>
+<label>a <input id="a" type="range" min="-5" max="5" step="0.5" value="1"> <output id="aValue"></output></label>
+<label>b <input id="b" type="range" min="-5" max="5" step="0.5" value="0"> <output id="bValue"></output></label>
+<label>c <input id="c" type="range" min="-5" max="5" step="0.5" value="-1"> <output id="cValue"></output></label>
+<svg id="quadraticGraph" viewBox="0 0 720 360" role="img" aria-label="函数图像，显示窗口x为-6到6、y为-10到10；精确关系另见文字"></svg>
+<p id="quadraticResult" aria-live="polite"></p><p class="note">图像窗口：x∈[-6,6]，y∈[-10,10]。数值显示为近似值；窗口之外的实根仍会列出。</p></section>
+<section id="derivative" hidden><h2>割线斜率怎样接近切线斜率？</h2><p>固定函数f(x)=x²，观察P=(x,x²)和Q=(x+h,(x+h)²)。这是教师延伸示例，不是1—9年级课程要求。</p>
+<label>x <input id="x" type="range" min="-3" max="3" step="0.1" value="1"> <output id="xValue"></output></label>
+<label>h（保持大于0） <input id="h" type="range" min="0.01" max="2" step="0.01" value="1"> <output id="hValue"></output></label>
+<svg id="derivativeGraph" viewBox="0 0 720 360" role="img" aria-label="x平方曲线、紫色割线、橙色切线；文字提供各斜率"></svg>
+<p id="derivativeResult" aria-live="polite"></p><p class="note">紫色是割线，橙色是切线。这里只从h&gt;0观察接近过程，不能替代导数定义的完整极限论证；f′(x)=0也不普遍保证有极值。</p></section>
+<div class="card"><label for="reflection">用自己的话说：什么变了？什么没变？依据是什么？</label><textarea id="reflection" placeholder="可在这里临时写；刷新即清空，也可以口头回答。"></textarea><p class="note">教师先核对数学与课堂适用性；页面没有自动评分、画像、排名或保存。</p></div>
+</main>
+<script>
+'use strict';
+const $=id=>document.getElementById(id);
+const fmt=x=>String(Number(x.toFixed(5)));
+function value(id){const n=Number($(id).value);if(!Number.isFinite(n))throw Error('参数须为有限数');return n;}
+function fraction(){
+  const d=value('denominator');$('numerator').max=String(d);
+  const n=Math.min(d,value('numerator')),m=value('multiple');$('numerator').value=String(n);
+  $('dValue').textContent=d;$('nValue').textContent=n;$('mValue').textContent=m;
+  function bar(num,den,y){let s='';for(let i=0;i<den;i++)s+=`<rect x="${i*680/den+20}" y="${y}" width="${680/den}" height="36" fill="${i<num?'#197e83':'#e8eef5'}" stroke="white"/>`;return s;}
+  $('fractionDiagram').innerHTML=bar(n,d,20)+bar(n*m,d*m,90);
+  $('fractionResult').textContent=`${n}/${d} = ${n*m}/${d*m}，约为 ${fmt(n/d)}。上条分${d}份取${n}份，下条分${d*m}份取${n*m}份；涂色总长度相同。`;
+}
+function graph(id,fn,lines=[]){
+  const loY=id==='derivativeGraph'?-5:-10,hiY=id==='derivativeGraph'?25:10;
+  const px=x=>30+(x+6)*55,py=y=>330-(y-loY)/(hiY-loY)*300;
+  const path=f=>{let s='';for(let i=0;i<=240;i++){const x=-6+i/20;s+=(i?'L':'M')+px(x).toFixed(2)+' '+py(f(x)).toFixed(2)+' ';}return s;};
+  let s=`<defs><clipPath id="clip-${id}"><rect x="30" y="30" width="660" height="300"/></clipPath></defs>`;
+  s+=`<path d="M30 ${py(0)}H690 M${px(0)} 30V330" stroke="#8d9dab"/>`;
+  s+=`<g clip-path="url(#clip-${id})"><path d="${path(fn)}" fill="none" stroke="#197e83" stroke-width="3"/>`;
+  for(const line of lines)s+=`<path d="${path(line.fn)}" fill="none" stroke="${line.color}" stroke-width="2"/>`;
+  s+='</g><text x="32" y="352" font-size="14">x: -6 至 6；纵轴范围见说明</text>';
+  $(id).innerHTML=s;
+}
+function quadratic(){
+  const a=value('a'),b=value('b'),c=value('c');for(const id of ['a','b','c'])$(id+'Value').textContent=fmt(value(id));
+  graph('quadraticGraph',x=>a*x*x+b*x+c);
+  let result;
+  if(a===0){result=b===0?(c===0?'恒为0，所有实数都是方程的解。':'非零常数函数，无实根。'):`一次函数，实根 x≈${fmt(-c/b)}，不使用二次函数顶点公式。`;}
+  else{const delta=b*b-4*a*c,vx=-b/(2*a),vy=a*vx*vx+b*vx+c;
+    result=`${a>0?'开口向上':'开口向下'}；顶点约为(${fmt(vx)}, ${fmt(vy)})；Δ=${fmt(delta)}。`;
+    result+=delta<0?'无实根。':delta===0?`重根 x≈${fmt(vx)}。`:`实根 x₁≈${fmt((-b-Math.sqrt(delta))/(2*a))}，x₂≈${fmt((-b+Math.sqrt(delta))/(2*a))}。`;
+  }
+  $('quadraticResult').textContent=`y = (${fmt(a)})x² + (${fmt(b)})x + (${fmt(c)})。${result}`;
+}
+function derivative(){
+  const x=value('x'),h=value('h');$('xValue').textContent=fmt(x);$('hValue').textContent=fmt(h);
+  if(h<=0){$('derivativeResult').textContent='h必须大于0；当前不计算割线斜率。';return;}
+  const secant=2*x+h,tangent=2*x;
+  graph('derivativeGraph',t=>t*t,[{fn:t=>x*x+secant*(t-x),color:'#7555ba'},{fn:t=>x*x+tangent*(t-x),color:'#c16b15'}]);
+  $('derivativeResult').textContent=`割线斜率 [(x+h)²−x²]/h = 2x+h = ${fmt(secant)}；切线斜率 f′(x)=2x=${fmt(tangent)}；两者之差为h=${fmt(h)}。图像纵轴范围[-5,25]。`;
+}
+function render(){const mode=$('topic').value;for(const id of ['fraction','quadratic','derivative'])$(id).hidden=id!==mode;({fraction,quadratic,derivative})[mode]();}
+$('topic').addEventListener('change',render);document.querySelectorAll('input').forEach(n=>n.addEventListener('input',render));render();
+</script>
+</html>

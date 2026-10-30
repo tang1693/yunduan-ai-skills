@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "zhongkao-hub",
+  "display_name": "中考总入口",
+  "frontmatter_name": "zhongkao-hub",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 9506,
+      "sha256": "3187e8139fb464035e82ce7aed33fc6bc54b5710827b8b3e07c4d558b892b828"
+    }
+  ]
+}

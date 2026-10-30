@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "edu-blueprint",
+  "display_name": "命题蓝图",
+  "frontmatter_name": "edu-blueprint",
+  "version": "1.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 19638,
+      "sha256": "5650d52544dfc45df6c50fb0ac90f49107e1da0e7ca765bf4be7c55b17c44f5e"
+    }
+  ]
+}

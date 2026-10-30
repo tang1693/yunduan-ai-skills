@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "超级记忆术把概念变成画面",
+  "display_name": "超级记忆术",
+  "frontmatter_name": "超级记忆术",
+  "version": "2.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5629,
+      "sha256": "f892f5f59ce215a33365258fe8fa2da5e26b92b0677d626a17d752c27486f30e"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "课题申报书",
+  "display_name": "课题申报书",
+  "frontmatter_name": "课题申报书",
+  "version": "2.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7700,
+      "sha256": "a3d8432dc62920e941763c4dac7747f95e11a1aca9e7ab8e1684262703dd3cf6"
+    }
+  ]
+}

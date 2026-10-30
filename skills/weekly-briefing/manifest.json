@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "weekly-briefing",
+  "display_name": "云端周报",
+  "frontmatter_name": "weekly-briefing",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5145,
+      "sha256": "26e8fd79e1ba15dd5f09ff2b83557a7f1c64c03b89fc91d4b9822ce9d749f288"
+    }
+  ]
+}

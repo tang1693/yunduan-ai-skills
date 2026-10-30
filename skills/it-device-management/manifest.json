@@ -1,0 +1,32 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "it-device-management",
+  "display_name": "信息化设备",
+  "frontmatter_name": "it-device-management",
+  "version": "2.0.2",
+  "built_at": "2026-10-27",
+  "review_route": "text",
+  "verification": "structure_and_source_review_only; not educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7759,
+      "sha256": "974ebdeb52f226a35d6311d1fd6ecf2f3fb309c000f0218070a64b47d715b5b6"
+    },
+    {
+      "path": "references/完整任务补充.md",
+      "size": 3156,
+      "sha256": "d1c6471d31955ca67e4912099ea47a5f76d89755655a585db1404be2daaf4a87"
+    },
+    {
+      "path": "来源记录/20261027_融合依据.json",
+      "size": 435,
+      "sha256": "9fefb69afbd3590fab385d352de2797dafc75b62cc228c1dda9c8aa80170298a"
+    },
+    {
+      "path": "来源记录/原签名/manifest.json",
+      "size": 473,
+      "sha256": "c43ccc324e13d59c497e5b6f04fe6bf13db192c1d249daab1ce055e1ac28e0cd"
+    }
+  ]
+}

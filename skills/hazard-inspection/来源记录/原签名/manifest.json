@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "hazard-inspection",
+  "display_name": "安全隐患排查",
+  "frontmatter_name": "hazard-inspection",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7713,
+      "sha256": "e185fb5871e61499ba710c24748cb1649127b02aa622335674731cf3bc24d239"
+    }
+  ]
+}

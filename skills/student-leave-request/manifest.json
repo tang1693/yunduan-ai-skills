@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "student-leave-request",
+  "display_name": "请假管理",
+  "frontmatter_name": "student-leave-request",
+  "version": "1.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7575,
+      "sha256": "16e3b4b6d0187f3f5783fd7337d5d38cc99888ef3cc5dbef78c8b6e46c55bc39"
+    }
+  ]
+}

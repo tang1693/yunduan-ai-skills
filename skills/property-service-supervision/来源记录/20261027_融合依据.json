@@ -1,0 +1,10 @@
+{
+  "schema": "school-method-origins/1",
+  "origin_id": "method-general-affairs-repair-cycle",
+  "origin_version": "2.1.0",
+  "sha256": "e0c2271637b10cd1a31b1fecd9de11a2bd80c9495ac4af245b897d1d3f243d75",
+  "adopted": "报修到现场验收，不再重复填材料",
+  "author": "AI老汤（汤幸初）；方法公地维护团队改编",
+  "license_scope": "school-internal",
+  "verification": "source_review_only; client_execution_pending"
+}

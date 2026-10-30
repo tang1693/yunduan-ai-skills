@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "thesis-report-writing",
+  "display_name": "课题三件套",
+  "frontmatter_name": "thesis-report-writing",
+  "version": "1.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 6372,
+      "sha256": "d04a2136b4614dc9f79bbeb024bd7d9aa3e555c17bfe09fbf3fc969f0d360d7b"
+    }
+  ]
+}

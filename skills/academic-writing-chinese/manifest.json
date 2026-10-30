@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "academic-writing-chinese",
+  "display_name": "中文学术写作深度助手",
+  "frontmatter_name": "academic-writing-chinese",
+  "version": "3.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 32272,
+      "sha256": "74c442f8d528a094226d1429d31e17096fe315c16685ed4dfe1ded9cf58fb0aa"
+    }
+  ]
+}

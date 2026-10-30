@@ -1,0 +1,10 @@
+{
+  "schema": "school-method-origins/1",
+  "origin_id": "method-teaching-cross-disciplinary-project",
+  "origin_version": "2.1.0",
+  "sha256": "e537c4cb86dd394406d3c75f15f9a8216579418877a6f303a55e67942041d7a7",
+  "adopted": "把跨学科问题做成完整项目",
+  "author": "AI老汤（汤幸初）；方法公地维护团队改编",
+  "license_scope": "school-internal",
+  "verification": "source_review_only; client_execution_pending"
+}

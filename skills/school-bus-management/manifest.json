@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "school-bus-management",
+  "display_name": "校车管理",
+  "frontmatter_name": "school-bus-management",
+  "version": "1.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5873,
+      "sha256": "75975840e0e42b90f3cc10c362b01a20dbe0f6c441f9c3ba0d3dffb9f8c2ae19"
+    }
+  ]
+}

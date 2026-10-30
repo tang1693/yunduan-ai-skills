@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "collaborative-data-analysis",
+  "display_name": "1+N数据分析",
+  "frontmatter_name": "collaborative-data-analysis",
+  "version": "1.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5913,
+      "sha256": "3bc5b3a472df449370dcdc3674e61298dedec82514b6f47737e4d2d49a5e5682"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "reception-planning",
+  "display_name": "来访接待",
+  "frontmatter_name": "reception-planning",
+  "version": "2.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5838,
+      "sha256": "c1aa7dd0b62a201182d6d9f64d56ff8f0ece11d07d2d00cd04c598664cf094b1"
+    }
+  ]
+}

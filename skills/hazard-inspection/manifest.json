@@ -1,0 +1,32 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "hazard-inspection",
+  "display_name": "安全隐患排查",
+  "frontmatter_name": "hazard-inspection",
+  "version": "1.1.2",
+  "built_at": "2026-10-27",
+  "review_route": "text",
+  "verification": "structure_and_source_review_only; not educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 8237,
+      "sha256": "430f9eb341432e1dc13f8b708508e58814f5e059041e26fbe7a0b42eb06427d3"
+    },
+    {
+      "path": "references/完整任务补充.md",
+      "size": 2964,
+      "sha256": "2d781b2e97dcfc7e42814353ed062e5efc0a886a8ed05a3bc87e5415f501bd49"
+    },
+    {
+      "path": "来源记录/20261027_融合依据.json",
+      "size": 439,
+      "sha256": "528fd5f3c85d8a1aefbccd387bf9ff3e2b5f261631c8821a816e7d0bb29893b4"
+    },
+    {
+      "path": "来源记录/原签名/manifest.json",
+      "size": 470,
+      "sha256": "02a8b7186ff1b8794872a18e876e8f91ad6565da482695aad8bb926034710810"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "名师工作室 · 云端学校版",
+  "display_name": "名师工作室",
+  "frontmatter_name": "名师工作室 · 云端学校版",
+  "version": "1.0.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 4925,
+      "sha256": "42381b8024dd6597df3af36685258b2b5146adcfe4b2e3e1100abb8f9e6d8041"
+    }
+  ]
+}

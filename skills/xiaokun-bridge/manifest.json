@@ -1,0 +1,18 @@
+{
+  "schema": "school-skill-package/1",
+  "name": "xiaokun-bridge",
+  "version": "1.1.1",
+  "author": "🏷️ 自创 · AI老汤（汤幸初）· 小鲲学堂（小初衔接探索）",
+  "validation": "static_review_and_script_smoke_test_only",
+  "license": "沿用作者授权范围；本轮不扩大第三方使用或再分发许可",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "a676d3fdde6ec94e6f1940292890cc058c09f643b8d9f374715d044e3489a0a0"
+    },
+    {
+      "path": "references/中文使用卡.md",
+      "sha256": "76abb30ece7f650cbc3b9c0328ef3e61f22bc465ef9a611e3873599306828a6d"
+    }
+  ]
+}

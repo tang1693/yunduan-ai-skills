@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "student-comment-generator",
+  "display_name": "学生评语",
+  "frontmatter_name": "student-comment-generator",
+  "version": "1.0.2",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 7594,
+      "sha256": "7e12447c44cc50832c62195101535207662c74f99d186c9eedcdedc122354157"
+    }
+  ]
+}

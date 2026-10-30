@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "research-fund-budget",
+  "display_name": "课题经费",
+  "frontmatter_name": "research-fund-budget",
+  "version": "1.0.1",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5632,
+      "sha256": "1136b4fedc38f54b3d9ece65b513f4e2690a0b3d164f640569bd3b062e0fa58f"
+    }
+  ]
+}

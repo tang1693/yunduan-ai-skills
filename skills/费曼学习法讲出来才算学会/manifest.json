@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "费曼学习法讲出来才算学会",
+  "display_name": "费曼学习法",
+  "frontmatter_name": "费曼学习法",
+  "version": "2.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 5215,
+      "sha256": "def540b970151eee36043e5d9c0ced49e38cadc16f06519ada35ce8dca45a2c5"
+    }
+  ]
+}

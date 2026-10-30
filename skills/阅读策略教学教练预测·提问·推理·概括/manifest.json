@@ -1,0 +1,17 @@
+{
+  "schema": "school-skill-package/1",
+  "skill_name": "阅读策略教学教练预测·提问·推理·概括",
+  "display_name": "阅读策略教学教练",
+  "frontmatter_name": "阅读策略教学教练",
+  "version": "2.1.0",
+  "built_at": "2026-10-26",
+  "review_route": "text",
+  "verification": "structure_only; not client or educational validation",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "size": 6075,
+      "sha256": "f972912324d0831b8dad519b04605f64fa5ef610e631fdb4dd92f301771f0bbb"
+    }
+  ]
+}

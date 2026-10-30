@@ -1,0 +1,18 @@
+{
+  "schema": "school-skill-package/1",
+  "name": "qingyun-top50",
+  "version": "1.1.1",
+  "author": "🏷️ 自创 · AI老汤（汤幸初）· 青云学堂（中考高分体系）",
+  "validation": "static_review_and_script_smoke_test_only",
+  "license": "沿用作者授权范围；本轮不扩大第三方使用或再分发许可",
+  "files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "7e07340a664051e6720a44c0991124ce1ea034889624cf27a4c70c6159196330"
+    },
+    {
+      "path": "references/中文使用卡.md",
+      "sha256": "25f04bb21f07881f36846db7d2ff10b105a69cb17dcc481a2b41ba2c2616a19b"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "schema": "school-method-origins/1",
+  "origin_id": "method-office-meeting-action-cycle",
+  "origin_version": "2.1.0",
+  "sha256": "03d2aa2ed8c02157c38aead0d25399f0e5902b5d8f5aeede56fda001e3597bf9",
+  "adopted": "会议记录到落实，维护同一份清单",
+  "author": "AI老汤（汤幸初）；方法公地维护团队改编",
+  "license_scope": "school-internal",
+  "verification": "source_review_only; client_execution_pending"
+}
