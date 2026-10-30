@@ -1,10 +1,10 @@
-# 云端学校 · AI 工作看板
+# 云端学校共同体 Skill 共享广场
 
 **作者：汤幸初（AI 老汤）** · 深圳市云端学校 教育 AI+ 中心
 
-把学校日常工作做成了 140 个 AI Skill，按处室和教师工作整理在一个看板里：找到要做的事，下载安装包，导入 AI 助手，说一句话就能开始。
+把学校日常工作做成了 140 个 AI Skill，按处室和教师工作整理在一个看板里：找到要做的事，下载安装包，导入 AI 助手，说一句话就能开始。现在是上线预告版：Skill 可以直接下载使用，同行分享和交流将在上线后开放。
 
-*Yunduan AI Work Board — 140 agent skills for everyday K-12 school work, by Tang Xingchu.*
+*Yunduan School Skill Square — 140 agent skills for everyday K-12 school work, by Tang Xingchu.*
 
 **[打开在线看板](https://tang1693.github.io/yunduan-ai-skills/)** · **[技能目录](技能目录.md)** · **[观看演示视频（1 分 43 秒）](https://tang1693.github.io/yunduan-ai-skills/docs/media/demo.mp4)**
 
@@ -13,8 +13,6 @@
 ## 演示视频
 
 https://github.com/user-attachments/assets/e2d4d944-62bc-4ea3-8255-6684622fb4b9
-
-
 
 ## 怎么用：新手三步走
 
@@ -36,6 +34,9 @@ https://github.com/user-attachments/assets/e2d4d944-62bc-4ea3-8255-6684622fb4b9
 - **教师工作**：日常教学、同备同研同教、年级学科专项、校本特色教学（扶摇阁、青云学堂、小鲲学堂、小云学堂）、技能共创工坊、教师成长关怀。
 - **急事支持**：临时调课、请假代课、维修报修、突发记录、隐患记录。
 - **完整工作流**：一节课完整设计、会议到落实闭环等，一件事用一个完整包。
+- **同行 Skill 与使用心得（即将开放）**：上线后，老师可以自愿分享自己改进过的 Skill，交流用法、提出问题。现在页面上的条目都是展示示例。
+
+![同行 Skill 与使用心得](docs/images/07-共享广场预告.png)
 
 全部 140 个 Skill 的名称和用途见 [技能目录](技能目录.md)。
 

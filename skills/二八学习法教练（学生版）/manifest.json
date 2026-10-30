@@ -3,25 +3,25 @@
   "skill_name": "二八学习法教练（学生版）",
   "display_name": "二八学习法",
   "frontmatter_name": "二八学习法教练（学生版）",
-  "version": "2.2.1",
-  "built_at": "2026-10-26",
+  "version": "2.2.2",
+  "built_at": "2026-10-29",
   "review_route": "text",
-  "verification": "structure_only; not client or educational validation",
+  "verification": "distribution_audit; not teacher trial or educational validation",
   "files": [
     {
       "path": "SKILL.md",
-      "size": 22515,
-      "sha256": "5e81e7e48bb4abd79f06e6fd340c22f8c3168d2eddc1d48dee16754db5ac40db"
+      "size": 23949,
+      "sha256": "8865b4c13718e3924aa7e8b70ad2f955e54bb6dafa1be0f1965363384dcaa946"
     },
     {
       "path": "references/few-shot-examples.md",
-      "size": 10379,
-      "sha256": "68a18aa82e83e4180011ff3108e57ee453b45a95636f94470494bbfe78906b50"
+      "size": 4188,
+      "sha256": "b1fa0d73d3a032b9fde2e4bbf260e542a3c49085200057912989023dba5a076d"
     },
     {
       "path": "references/visual-strategy.md",
-      "size": 6435,
-      "sha256": "68087624beda39fa861425b4875b896b70e7955ed2ced2c59a8761b207b99a8d"
+      "size": 2353,
+      "sha256": "16eecf57cfc6a4e937244d2ad5bc01af06e16bfcd77ad954fdee5a8a53afd05f"
     }
   ]
 }
